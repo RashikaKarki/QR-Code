@@ -1,7 +1,8 @@
+import argparse
+
 from pyzbar.pyzbar import decode, Decoded
 from pyzbar.locations import Rect
 from PIL import Image
-import argparse
 
 def get_coordinates(polygon_data: list) -> dict:
     """
