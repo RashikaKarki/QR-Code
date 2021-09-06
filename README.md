@@ -1,3 +1,13 @@
+## Installation
+
+Install the packages as per the requirements.txt 
+
+
+```bash
+pip3 install -r requirements.txt
+```
+
+
 ## Usage
 
 The script accepts one parameter
