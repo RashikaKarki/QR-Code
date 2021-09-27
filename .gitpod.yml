@@ -1,7 +1,7 @@
 # Commands to start on workspace startup
 image: python:3.8.10-slim
 tasks:
-  - init: pip install -r requirements.txt
+  - init: pip install -r requirements.txt; apt-get install -y build-essential libzbar-dev
 # Ports to expose on workspace startup
 ports:
   - port: 5000
